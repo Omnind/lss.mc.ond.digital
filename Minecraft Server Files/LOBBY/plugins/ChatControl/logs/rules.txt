@@ -1,0 +1,1 @@
+[26.08.2020 10:48:08] Stefytorus: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1

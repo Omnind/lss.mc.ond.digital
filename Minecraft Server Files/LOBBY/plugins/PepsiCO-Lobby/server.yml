@@ -1,0 +1,93 @@
+# Plugin config
+settings:
+  # Pallet minigame guide.
+  #
+  # How it works:
+  # The builder is allowed to build the pallet and attempt to send it.
+  # When he clicks the button, the order can either go through (and record the time it took for that to happen)
+  # or it can be denied. If it is denied, explain the reasons. In this case, we will consider defects, unplaced blocks,
+  # as defects, so only a perfect pallet (counted blocks = required blocks) will go through.
+  #
+  # Game: Give player the required blocks and allow him to place the pallet. Once built and verified, he wil progress to the next layer.
+  # This way, he will learn the ENTIRE process required in the factory.
+  game-1:
+    pallet:
+      locations:
+        build: "world;202;80;10;0;0"
+        chest: "world;212;83;10;0;0"
+        send: "world;210;83;18;0;0"
+        reset: "world;208;83;18;0;0"
+        spawn: "world;203.47607370035945;82.0;0.6213315546803599;0.46826172;-3.4915466"
+    # Chance for a defect to appear.
+      defect: 0.1
+    # Colors used for defects.
+      colors:
+        15: 1
+        0: 2
+        11: 3
+        14: 5
+        4: 6
+        13: 10
+  game-2:
+    pallet:
+      locations:
+        build: "world;176;80;10;0;0"
+        chest: "world;186;83;10;0;0"
+        send: "world;184;83;18;0;0"
+        reset: "world;182;83;18;0;0"
+        spawn: "world;177.51867962812332;82.0;1.292348686445213;0.018310547;-3.169757"
+    # Chance for a defect to appear.
+      defect: 0.1
+    # Colors used for defects.
+      colors:
+        15: 1
+        0: 2
+        11: 3
+        14: 5
+        4: 6
+        13: 10
+  game-3:
+    pallet:
+      locations:
+        build: "world;149;80;10;0;0"
+        chest: "world;159;83;10;0;0"
+        send: "world;157;83;18;0;0"
+        reset: "world;155;83;18;0;0"
+        spawn: "world;150.835289065094;82.0;1.9655160495077926;0.78125;-1.317689"
+    # Chance for a defect to appear.
+      defect: 0.1
+    # Colors used for defects.
+      colors:
+        15: 1
+        0: 2
+        11: 3
+        14: 5
+        4: 6
+        13: 10
+ 
+
+
+language:
+  en_us:
+    # Layer tutorial
+    layers:
+      bottom:
+        chat: "&7Building the bottom layer is the first step in completing your pallet. To place a block, please click on your &9RIGHT &7mouse button. To break a block, press and hold your &cLEFT &7mouse button."
+      middle:
+        chat: "&7Good job! You completed the bottom layer and sent it to middle layer. Now, let's complete the middle layer and send it to the top layer."
+      top:
+        chat: "&7The top layer is a bit different than the previous two layers, in the fact that it can have to build more than 2 blocks high. Because of that, in this tutorial we will have to build &a3 BLOCKS HIGH&7. Good luck!"
+    # Title and subtitle divided by |
+    titles:
+      defect: "&c&lDEFECT!|&7You have sent a pallet with defects!"
+      sent: "&2&lSENT!|&7Good job, you sent the current pallet to the next layer!"
+      improper: "&4&lIMPROPER MIX|&7Your pallet has an improper mix of blocks!"
+      empty: "&8&lUNFINSIHED|&7You haven't finished building the pallet"
+      joined: "&9&lWELCOME|&7Welcome to the pallet tutorial game!"
+      left: "&6&lLEFT|&7Thanks for playing the pallet tutorial!"
+      outside: "&6&lOUTSIDE|&7You can't build a pallet here!"
+  ro_ro:
+    
+resourcepack: "https://assets.entryrise.com/resourcepacks/LSSv1.zip"
+# Version is used for future updates
+version: 1

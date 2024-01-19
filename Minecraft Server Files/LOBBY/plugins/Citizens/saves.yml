@@ -1,0 +1,414 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 12
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid-name: robot
+      cached-skin-uuid: ee57ee4a-0ea8-4438-a75a-994c2e8cbd9a
+    name: §a[NPC] Go to factory
+    uuid: 5d88f48f-da21-4d6c-b6a9-9c0b4380a585
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: GAEqZ5QizCZyAvj//4y5yr9AkTeSNzuizkNCwmVBbiOyxZP3Lu4T+q7LxL0elTLKgEj6kNEgftgJq4x9VxD4Cg7kmBqMKbb67E/LLpLhDCSO+aZtquHll7tUOlNInCa309l2HTGFKhLwvQOSBFcRHAmBJDB/ye/rmOsOcqtuYoNL2yJKKXJV7h2Vv8EFA3WK5nSTlMX6bcg5shmm+h1wCMPbXMOnnsHLtR6f94ZOnTPFl00A5fphwWLVzwybDG7Fz3imtBQK1xMgxP+S66AWmOMHk98erRx83QoUbWDLzHp06mgBpzL1rjMWoKcjXMTydj8MKEZfX++jSzgwFOihlZk8To/qxewK3AgYaVV3quLWFnRTlrlLH2Y0ksof24D9/vf9lhUFTTRC733oGkgBSciKIM+ZBKJ+UHw7+7VaWy0Fh0WdmFElONX9Y00jHqM7dtmTRT7EHvRkQ0eknSo6vwct7ru2RXoAgey91SqVC7mPW5mRbEJPNBfLacjFdhPqQyAqipmh3R25wkcFJS8VsojR7pgVw6Zit+fN/Z9ScDLbvlZJuymoYdakYBKDCxIB2+meXCRuPZQhsZ/Tk/PhChC1egqOcqMMs4Ax97BQWYZU0G32RSyaMhZKbzR0DALfSdFJlE++aNEXPBtJvc4kR+DhAbx09UO9iC/Px/woRd4=
+        skinName: robot
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwMjg0ODYxNDAyOSwKICAicHJvZmlsZUlkIiA6ICJlZTU3ZWU0YTBlYTg0NDM4YTc1YTk5NGMyZThjYmQ5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJST0JPVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGJjN2Q0ZTM1NDI5Y2JiYTQ5OTVlNTc0MjUxYjUwYjllZDUwZGVhYWYwYmU5NmU0NjJkZTg4NmI3ZjZkZmY1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: 44.69568
+        world: world
+        x: '6.4919'
+        y: '79.0'
+        z: '-5.5387'
+        yaw: '44.6957'
+        pitch: '0.0'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      spawned: true
+      type: IRON_GOLEM
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: dm open Simulations
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,owner,equipment,type,mounttrait,skintrait,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: villager
+      cached-skin-uuid: a05deec0-7a0e-4076-87cb-dc5dcaca8586
+    name: §a[NPC] Tutorial
+    uuid: 0862e493-031c-45b2-bb06-a7689d8f9bc1
+    traits:
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: gamestatemanager me 5 0
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      type: ILLUSIONER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: oy9rn5Y2et23R1YZadP8eAaapf/6Xxlqlt7LBmuuJRYrmiRK+gea6EQrnZ0Ptoyt0NNe9/s/H6er/oLqHnQ+f7EiCeEEwV/NXnGZ0iWfrnx5JXuQb8SvrDZYfSve6u8kd8ETN3TMIQ51DJ6th27jgNkNFb9tO2XhC3/km+v8D6yrE1lVfCzOSGJCOt8H4t0BTZHsLUMWGXWRBziLMtHGPn5bMVrK9j/Lzdv8uVDvF/4P39rMNkOEraFK6z/BnBlaNrcGlVRsM2MndqjOEdbkqG4Khx8dzjt8LAVy1xzo3u98S7g/hzCc1RfXXNJwyMrKsuN8BvUyr1yafnEjudj/7/MBZnegcjPurVS3Fu2/vxwdwLpCz8g3nLQ/Jc/v91P37UQyyEy3if61aQuHCOG07t1Z2C9dE9/RMRnc11HZUjEIFUNt7tJ9ZPOLRo/XKu60RgZ1kda+aynus/HIYSanba4JDGP+I8OWyVe/8aTcpvpGESsbjFLz15zydfURU9IuaiwHRCT3z31MQgaOglFzMq5CRs7Pw/qqXZ0uc9mUxr6jPRZl7g5xKnSJOIif1KzENDiDl89GtPZPoIXgCMCmNCXhchLubRWMsj7a19jcBI4k0rfQ7cBP/Hb6yZ+14lD6kN9Vqf/jy6Jkv6Km1dKm1XcvTfEsd4iZUdyQcRKB1/4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjQ3MDI0MDA4NywKICAicHJvZmlsZUlkIiA6ICJhMDVkZWVjMDdhMGU0MDc2ODdjYmRjNWRjYWNhODU4NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWxsYWdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YWY3YzA3ZDFkZWQ2MWIxZDMzMTI2ODViMzJlNDU2OGZmZGRhNzYyZWM4ZDgwODg5NWNjMzI5YTkzZDYwNmUwIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: -268.96518
+        world: world
+        x: '0.5005'
+        y: '79.0'
+        z: '0.5433'
+        yaw: '91.0348'
+        pitch: '0.0'
+      horsemodifiers:
+        carryingChest: false
+        color: CREAMY
+        style: NONE
+        armor:
+          type: ''
+        saddle:
+          type: ''
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: scoreboardtrait,location,horsemodifiers,owner,equipment,type,mounttrait,skintrait,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: green
+      cached-skin-uuid: 2e65b684-7a2f-4dd4-ac80-f61a6a6adfe5
+    name: §a[NPC] Enter Minigame
+    uuid: db532fe7-535b-4b42-b198-29a83b186e26
+    traits:
+      type: VILLAGER
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: whTp/reXeULpU9qzimwMICDj65NEh57D2EDFctcRHxaOueo+d5MfPcX9P78hTuYq6ohOqQDsINripb68Oj7+j3ybGgVrj8a3yxs3VhekZlfwAjIUgGRN3OXQM4Sp/iL8+8RKCF2E5dbY3BZ0ofv9HBtstxqgoeAmcvooJbbw2dYvQkm5HCrczrVRPN0Bw8wWGU9WdyVulx4ZD3szBeA6ebDYZEB0WUbnl+89LBVFwjJ+D3EWF8Vl1SoPU4vGX4SrpZyttZeKsiHChnkr9UET+WhVSFbgzibY9tUvjBaFSYg0ymg9Gs3Mr/nwqYBPYDKn5d/E0FsetCLr9irIkQIF81pJEuQQuACT0hIbvSmp3Cu3L4XiVCmkDvMHlRBSvD8SYshCl+3UpfCIuOKgvqo5QbWuwFXc7k+1K+AsgQZvgyFmAkCP/bLLbfE7LMpE3vlalogsp5+8Vr1aq2sol2+vR2j15KoS8BYt/AaU4j/TlkFvRztnH4rYAkGPwqtzMYZhdDB/PSu31I40jlL+lx+gZBlL+K7OyRNKbiXIvELCboU7N08B11up13jIOrPVIPpxZrUns6wQTwrhLJqMtIkL5y1Shx29cds38EgjsdHwtUPk/Vrp2WWRvqrbf1L5ukWGklzjl46qG1Wb0vvtghCKvl4pdsIr1it/JJPjhh2ZxxA=
+        skinName: green
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwOTUwMzcyODMzMiwKICAicHJvZmlsZUlkIiA6ICIyZTY1YjY4NDdhMmY0ZGQ0YWM4MGY2MWE2YTZhZGZlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmVlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjZiODAyZGM1ZDQ3ZTkyMDdkYjgzYmEzZjgxYzg4ZGJlODNmN2ViZmVjZWVlMTkzNDQ5NzA5ODU2NTEzMGM1IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      horsemodifiers:
+        carryingChest: false
+        color: CREAMY
+        style: NONE
+        armor:
+          type: ''
+        saddle:
+          type: ''
+      location:
+        bodyYaw: 358.8308
+        world: world
+        x: '15.2328'
+        y: '85.0'
+        z: '-6.9881'
+        yaw: '-1.1692'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: dm open minigames
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: dm open minigames
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,owner,horsemodifiers,equipment,type,mounttrait,skintrait,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: §a[NPC] Exit Minigame
+    uuid: 51171d09-c463-4321-9223-22c1a6bbcc6b
+    traits:
+      type: VILLAGER
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: pepsico-lobby quit
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: -134.92163
+        world: world
+        x: '195.957'
+        y: '82.0'
+        z: '18.4003'
+        yaw: '-134.9216'
+        pitch: '0.0'
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,equipment,owner,type,mounttrait,skintrait,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: §fPress §cSPACE TWICE §fto start flying
+    uuid: a967eef6-2ba5-40c9-9f84-a5cf882e3941
+    traits:
+      type: VILLAGER
+      spawned: true
+      profession: PRIEST
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: fly
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: 314.90558
+        world: world
+        x: '196.5168'
+        y: '82.0'
+        z: '2.9144'
+        yaw: '-45.0944'
+        pitch: '0.0'
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,owner,equipment,type,mounttrait,skintrait,profession,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    name: §a[NPC] Exit Minigame
+    uuid: cb2fe3ff-4f99-4241-9a3d-355bd6200830
+    traits:
+      type: VILLAGER
+      location:
+        bodyYaw: 229.75238
+        world: world
+        x: '142.3'
+        y: '82.0'
+        z: '18.6856'
+        yaw: '-130.2476'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: pepsico-lobby quit
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,owner,equipment,type,mounttrait,skintrait,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    name: §a[NPC] Exit Minigame
+    uuid: 0296f1fb-6a1d-4b0f-8d99-e8b077c7b987
+    traits:
+      type: VILLAGER
+      location:
+        bodyYaw: 232.37524
+        world: world
+        x: '169.682'
+        y: '82.0'
+        z: '18.7'
+        yaw: '-127.6248'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: pepsico-lobby quit
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,owner,equipment,type,mounttrait,skintrait,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    name: §fPress §cSPACE TWICE §fto start flying
+    uuid: 0b9aa0d0-089a-442b-a9d7-effdb78a3854
+    traits:
+      type: VILLAGER
+      location:
+        bodyYaw: -45.159847
+        world: world
+        x: '143.6263'
+        y: '82.0'
+        z: '3.2226'
+        yaw: '-45.1598'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: fly
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      profession: PRIEST
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,equipment,owner,type,mounttrait,skintrait,profession,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: §fPress §cSPACE TWICE §fto start flying
+    uuid: ccba1902-3585-4794-8ae7-84ad7627490e
+    traits:
+      type: VILLAGER
+      location:
+        bodyYaw: -52.73015
+        world: world
+        x: '170.1773'
+        y: '82.0'
+        z: '3.1838'
+        yaw: '-52.7301'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: fly
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      profession: PRIEST
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: hologramtrait,scoreboardtrait,location,equipment,owner,type,mounttrait,skintrait,profession,commandtrait,spawned,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

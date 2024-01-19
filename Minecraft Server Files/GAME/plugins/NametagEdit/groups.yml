@@ -1,0 +1,6 @@
+Groups:
+  Default:
+    Permission: group.default
+    Prefix: '%pepsico_role% &7'
+    Suffix: '&f'
+    SortPriority: 1

@@ -1,0 +1,131 @@
+## LEAVE THIS BLANK
+BLANK: ““
+ACCEPT_INCOMING_TITLE_ALERT:  “’Accept Incoming’ butonuna basarak geleni al”
+ALERTING_BANDING_WORKERS: “Bantlama çalışanlarını Uyarma”
+ALERTING_MIDDLE_LAYER: “Orta katman çalışanlarını Uyarma”
+ALERTING_TOP_LAYER: “Üst katman çalışanlarını Uyarma “
+ALREADY_BAGGED_CURRENT_PALLET: “Mevcut paleti çoktan bantladınız”
+BAGGING_CURRENTLY_HAPPENING: “Bantlama süreci şu anda gerçekleşiyor”
+BLOCK_CANNOT_BE_BROKEN: “Bu bloğu kıramazsınız”
+BOTTOM_LAYER_ALERT_TO_MIDDLE_LAYER: “Alt katmandan ürününüz var”
+CANNOT_BREAK_BLOCKS_HERE: “Burada blokları kıramazsınız”
+CANNOT_BUILD_HERE: “Buraya inşa edemezsiniz”
+CANNOT_GO_BELOW_LAYER_ZERO: “0.katmandan aşağı gidemezsiniz”
+CANNOT_PLACE_BAND_HERE: “Buraya bant yapıştıramazsınız”
+CANNOT_PLACE_BAND_ON_THAT_FACE_OF_BLOCK: “Bloğun o yüzüne bant yapıştıramazsınız”
+CANNOT_PLACE_SIGN_HERE: “Buraya işaret koyamazsınız”
+CANNOT_PLACE_TYPE_BLOCK: “Bu tip bir blok yerleştiremezsiniz”
+CANNOT_SHIP_BOTTOM_MUST_HAVE_32: “Görev tamamlanmadan gönderemezsiniz (32 blok tamamlanmamış)”
+CANNOT_SHIP_BOTTOM_MUST_HAVE_32_SUBTITLE: "Şu boyutlarda olmalı: Genişlik: 4 blok x Uzunluk: 4 blok x Yükseklik: 2 blok"
+CANNOT_SHIP_PALLET_MUST_HAVE_64_BLOCKS: “Görev tamamlanmadan gönderemezsiniz (64 blok tamamlanmamış)”
+CANNOT_SHIP_PALLET_MUST_HAVE_MORE_BLOCKS: “Paleti yükleyemezsiniz, daha fazla blok olmalı”
+END_NAME: “Oyun Sonu”
+ERROR_OCCURRED_WHEN_PLACE_BAND: “Bandı yerleştirirken bir hata oluştu, lütfen Admin’le görüşün”
+INITIATED_BAGGING: “Ambalajlama başladı”
+ALERTING_INSPECTION_WORKERS: “Kalite Kontrol çalışanlarını uyarma”
+BANDING_HAS_BATCH_FOR_YOU: “Ambalajlamadan gelen paletiniz var!”
+INSPECTION_ON: “0.katmanı gösteriyor”
+INSPECTION_ON_SUBTITLE: “Üst ve alt katmanlara geçiş için ‘Yukarı’ ve ‘Aşağı’ butonlarını kullanın”
+KEEP_CLICKING_UNTIL_SOMEONE_PICKS_UP: “Birisi alana kadar basmaya devam edin”
+LAYER_DOES_NOT_EXIST: “Böyle bir katman yok”
+MIDDLE_LAYER_HAS_DELIVERY_FOR_YOU: “Orta katmanın size bir gönderisi var”
+MID_ROUND_ONE_NAME: “Turlar arasında”
+MID_ROUND_TWO_NAME: “Turlar arasında “
+MUST_FINISH_BAGGING_BEFORE_SHIPPING: “Göndermeden önce ambalajlamayı tamamlamalısınız”
+MUST_FINISH_BAGGING_BEFORE_SHIPPING_SUBTITLE: “Lütfen bekleyin”
+MUST_HAVE_DIMENSIONS_4_4: "Şu boyutlarda olmalı: Genişlik: 4 blok x Uzunluk: 4 blok"
+MUST_HAVE_DIMENSIONS_4_4_4: "Şu boyutlarda olmalı: Genişlik: 4 blok x Uzunluk: 4 blok x Yükseklik: 4 blok"
+MUST_TOGGLE_INSPECTION_BEFORE_SHIPPING: "Göndermeden önce kontrolü tamamlamalısın"
+MUST_TOGGLE_INSPECTION_BEFORE_SHIPPING_SUBTITLE: "Kontrolü başlat butonuna basın"
+NEW_ITEMS_AVAILABLE_IN_CHEST: "Yeni ürünler geldi"
+NEW_ITEMS_AVAILABLE_IN_CHEST_SUBTITLE: "Yeni ürünleri al"
+NEW_PALLETS_FROM_INSPECTION: “Kalite Kontrolden yeni paletleriniz var”
+NOT_INSPECTING_PALLET: “Şu anda bir paleti kontrol etmiyorsunuz”
+NO_BELL_RING_IN_PAST_FIVE_SECONDS: “Son 5 saniyede kabul edilecek bir zil çalmadı”
+NO_MORE_LAYERS_ABOVE: “Daha üstte katman yok”
+NO_MORE_LAYERS_ABOVE_SUBTITLE: “{LAYER}ıncı katmandasınız”
+NO_MORE_PALLETS_TO_SELECT_FROM: “Seçilecek başka palet yok”
+NO_ORDERS: “Sipariş yok”
+NO_ORDERS_SUBTITLE: “Yeni bir siparişin gelmesini bekleyin”
+NO_ORDERS_TO_PICK_UP: “Alınacak sipariş yok”
+NO_ORDERS_TO_PICK_UP_SUBTITLE: “Müşteriden uyarı gelmesini bekleyin”
+NO_ORDER_SELECTED: “Seçilen siparişiniz yok”
+NO_ORDER_SELECTED_SUBTITLE: “Sipariş seçme butonlarını kullanın”
+NO_PALLET_TO_BAG: “Ambalajlanacak palet yok”
+NO_PALLET_TO_INSPECT: “Kontrol edilecek palet yok”
+NO_PALLET_TO_MARK_AS_DEFECT: “Kusurlu olarak işaretlenecek palet yok”
+NO_PALLET_TO_SHIP: “Yüklenecek palet yok”
+ONE_OR_MORE_ORDERS_AWAIT: “Sizi bekleyen bir veya daha çok siparişiniz var”
+ONE_OR_MORE_ORDERS_AWAIT_SUBTITLE: “’Siparişi al' butonuna bas”
+ORDER_HAS_BEEN_PICKED_UP: “Siparişi aldınız!”
+PALLET_EMPTY_SUBTITLE: “Siparişteki tüm paletler tamamlanmalı”
+PALLET_HAS_BEEN_BAGGED: “Palet tamamen ambalajlandı”
+PALLET_MARKED_AS_DEFECT: “Palet kusurlu olarak işaretlendi”
+PALLET_ONE_EMPTY: “1.bölgedeki palet boş”
+PALLET_TWO_EMPTY: “2.bölgedeki paket boş”
+PICKED_UP_ORDER: “Paletinizi aldınız”
+PRESS_BEGIN_INSPECTION_BUTTON: “’Kontrole başla’ butonuna bas”
+PRE_ROUND_NAME: “Turdan önce”
+REMOVED_BAND: “Bandı çıkar”
+REMOVED_BAND_SUBTITLE: “Bant tekrar stoğa eklendi”
+ROLE_BANDING: “Bantlama”
+ROLE_BOTTOM_LAYER: “Alt katman”
+ROLE_CANNOT_PLACE_BLOCKS: “Siz blok yerleştiremezsiniz”
+ROLE_CANNOT_PLACE_SIGN: “Siz işaret koyamazsınız”
+ROLE_INSPECTION: “kalite kontrol”
+ROLE_MIDDLE_LAYER: “Orta katman”
+ROLE_FACILITATOR: “Yönetici”
+ROLE_TOP_LAYER: “Üst katman”
+ROLE_WAREHOUSE: “Depo”
+ROUND_ONE_ENDED: “1.tur sona erdi!”
+ROUND_ONE_NAME: “1.tur”
+ROUND_THREE_ENDED: “Oyun sona erdi!”
+ROUND_THREE_NAME: “3.tur”
+ROUND_TWO_ENDED: “2.tur sona erdi!”
+ROUND_TWO_NAME: “2.tur”
+SELECTED_PALLET: “{NUM}. Palet seçildi”
+SELECTED_PALLET_SUBTITLE: “{LOC} da {NUM} adet palet var “ 
+SENT_PALLETS_TO_WAREHOUSE: “Paletleri depoya gönderdiniz!”
+SIGN_MUST_BE_ON_PALLET_NOT_FLOOR: “Ürün kodu paletin üstüne konmalıdır, zemine değil
+STUCK_IN_WALL_MESSAGE: “Paletin içinde sıkışmak üzere olduğunuz için istasyondan uzaklaştırıldınız”
+TOP_LAYER_HAS_BATCH_FOR_YOU: “Üst katmandan sizin için bir ürün var”
+VIEWING_ENTIRE_PALLET: “Tüm paleti görüntülüyorsunuz”
+#VIEWING_LAYER: “Görüntülenen katman #{LAYER}”
+VIEWING_LAYER: ““
+YOULL_GET_ALERT_WHEN_FINISHED: “Tamamlanınca uyarı alacaksınız”
+YOU_HAVE_BEEN_ASSIGNED: “’{ROLE}’e atandınız!”
+ROLE_IS_BUSY: “{ROLE} yoğun ve şu anda palletleri kabul edemez”
+ROLE_IS_BUSY_SUBTITLE: “Acele etmelerini söyle!”
+HURRY_INPUT: “{ROLE}  den yeni bir paletiniz var ancak mevcut işiniz devam ediyor”
+HURRY_INPUT_SUBTITLE: “Öyleyse acele et!”
+YOU_ARE_BUSY: “Şu anda bir palet üzerinde çalışmaktasınız”
+YOU_ARE_BUSY_SUBTITLE: “Yenisini kabul etmeden önce mevcut paleti bitirmelisiniz”
+CLEARED_SELECTION: “Seçilen sipariş paletleri silindi”
+WAREHOUSE_SELECTED_PALLET: “{TYPE}’türünde 1 adet palet seçtiniz”
+NOTE_ENOUGH_OF_PALLET_TO_SELECT: “Siparişe eklemek için bu tip paletten yeterince yok”
+NOTE_ENOUGH_OF_PALLET_TO_SELECT_MORE_THAN_ONE_OF: “ Birden fazla seçmek için için bu tip paletten yeterince yok “
+CANNOT_SELECT_MORE_PALLETS: “Daha fazla paket seçemezsiniz, ya siparişi teslim etmeli ya da silmelisiniz”
+WAREHOUSE_HEADER_HALF: “=====================“
+BANDING_HEADER_HALF: “======================“
+BOTTOM_HEADER_HALF: “===================“
+INSPECTION_HEADER_HALF: “=====================“
+MIDDLE_HEADER_HALF: “===================“
+TOP_HEADER_HALF: “===================“
+INSPECTION_LAYER: “Kontrol katmanı”
+CURRENT_ROUND: “Mevcut tur”
+TIME_IN_ROUND: “Turdaki süre”
+NUMBER_OF_ORDERS: “Sipariş sayısı”
+CURRENT_ORDER_ID: “Mevcut sipariş no”
+NO_ORDER_SELECTED_CHAT: “Hiçbir sipariş seçilmedi”
+MARKED_AS_DEFECT: “Bu paleti kusurlu olarak işaretlediniz”
+NONE: “Hiçbiri”
+AND: “VE”
+ORDER_INFO: “Sipariş bilgisi”
+NONE_SELECTED: “Hiçbiri seçilmedi”
+NUMBER_PALLETS_IN_INPUT: “Gelen palet sayısı”
+PALLET_ONE_INDEX: “Palet 1 içeriği”
+PALLET_TWO_INDEX: “Palet 2 içeriği”
+CURRENT_PRODUCTION_SCHEDULE: “Mevcut Üretim Planı”
+OPTIMIZATION_POKEYOKE_WRONG: “Yanlış blok yerleştirildi”
+OPTIMIZATION_PURCHASE_SUCCESS: “Optimizasyon başarıyla yapıldı”
+OPTIMIZATION_PURCHASE_FAIL: “Optimizasyon yapılamadı”

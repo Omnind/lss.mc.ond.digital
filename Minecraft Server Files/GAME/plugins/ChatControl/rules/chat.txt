@@ -1,0 +1,50 @@
+# -------------------------------------------------------------------------------
+# This file manages rules in chat (not commands) and includes rules from rules.txt.
+#
+# File by default contain examples that you can safely remove or change.
+#
+# For help, see notes in rules.txt file.
+# -------------------------------------------------------------------------------
+
+# -------- Basic grammar corrections
+match \bdis\b
+then replace this
+
+match \bwanna\b
+then replace want to
+
+match \bgonna\b
+then replace going to
+
+# -------- Prevent asking for a rank
+
+match ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+id ServerHate
+then console kick {player} &cI don't think so.
+then deny
+then log
+
+# -------- Example usage of unicode characters - making smileys
+match :\)
+then replace ☺
+
+match :-\)
+then replace ☺
+
+match :\(
+then replace ☹
+
+match :-\(
+then replace ☹
+
+match ;\)
+then replace ㋡
+
+match ;-\)
+then replace ㋡
+
+match \:star\:
+then replace ★
+
+match <3\b
+then replace ❤

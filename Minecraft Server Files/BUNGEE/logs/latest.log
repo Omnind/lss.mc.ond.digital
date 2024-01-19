@@ -1,0 +1,42 @@
+[13:48:02] [main/INFO]: Using standard Java JCE cipher.
+[13:48:02] [main/INFO]: Using standard Java compressor.
+[13:48:02] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.17-R0.1-SNAPSHOT:34188b3:443
+[13:48:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[13:48:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[13:48:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[13:48:02] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[13:48:02] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/INFO]: Loaded plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+[13:48:02] [main/INFO]: Loaded plugin RandomHub version 1.1.8-SNAPSHOT by null
+[13:48:02] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/WARN]: Forced host server pvp is not defined
+[13:48:02] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/INFO]: Enabled plugin BungeeGuard version 1.2-SNAPSHOT by Luck
+[13:48:02] [main/INFO] [RandomHub]: Listing your servers into the plugin...
+[13:48:02] [RandomHub Pool Thread #0/INFO] [RandomHub]: [Updater] Searching for updates.
+[13:48:02] [main/INFO] [RandomHub]: A total of 1 servers have been added to the plugin
+[13:48:02] [main/INFO] [RandomHub]: Starting the ping task, the interval is 1000
+[13:48:02] [main/INFO]: Enabled plugin RandomHub version 1.1.8-SNAPSHOT by null
+[13:48:02] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.17-R0.1-SNAPSHOT:34188b3:443 by WaterfallMC
+[13:48:02] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:20024
+[13:48:02] [Netty Worker IO Thread #0/INFO]: Started query on /0:0:0:0:0:0:0:0:20024
+[13:48:03] [RandomHub Pool Thread #0/WARN] [RandomHub]: [Updater] API connection returned response code 404
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: java.io.FileNotFoundException: https://api.inventivetalent.org/spigot/resource-simple/639
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at org.inventivetalent.update.bungee.BungeeUpdater.run(BungeeUpdater.java:120)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:66)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[13:48:03] [RandomHub Pool Thread #0/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[13:50:17] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:63052] <-> InitialHandler has connected
+[13:50:18] [Netty Worker IO Thread #2/INFO]: [masayukijpn|/127.0.0.1:63052] <-> ServerConnector [lobby] has connected
+[13:51:06] [Netty Worker IO Thread #2/INFO]: [masayukijpn|/127.0.0.1:63052] <-> ServerConnector [sim1] has connected
+[13:51:06] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:63052|masayukijpn] <-> DownstreamBridge <-> [lobby] has disconnected
+[13:54:03] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:63052|masayukijpn] -> UpstreamBridge has disconnected
+[13:54:03] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:63052|masayukijpn] <-> DownstreamBridge <-> [sim1] has disconnected

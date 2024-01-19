@@ -1,0 +1,8 @@
+#####################
+#    Hub Command    #
+# Author: chatclear #
+#####################
+#Put the name of your lobby server as used in your BungeeConfig after server name (put name in '')
+HubName: 'lobby'
+#SendMessage when type /hub (put message in '')
+SentMessage: '&aYou have been sent to hub...'

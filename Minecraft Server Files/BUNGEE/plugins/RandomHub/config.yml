@@ -1,0 +1,28 @@
+settings:
+  check_updates: true
+  servers:
+  - lobby
+  lobby_command:
+    enabled: true
+    name: lobby
+    permission: ''
+    aliases:
+    - hub
+    - central
+  kick_reconnect:
+    enabled: true
+    reasons:
+    - You have been kicked
+    - Server is restarting
+  server_check:
+    enabled: true
+    tactic: CUSTOM
+    markers: []
+    intents: 5
+    timeout: 7000
+    interval: 1000
+messages:
+  already: '&cYou are already in a lobby!'
+  unsuccessful: '&cNo hub server has been found'
+  connecting: '&aConnecting to a lobby'
+  connected: '&aConnected to {server}'

@@ -1,0 +1,110 @@
+instructions:
+  location: world, 792.420, 239.200, 778.513
+  lines:
+  - '&6Find Disc Crate Keys in the chests around the world'
+  - '&6You will need them to open the falling Disc Crates.'
+  - '&5Open the Disc Crate for the chance to pick up Disclosure discs!'
+  - '&5You''ll need a jukebox to play the discs. Search for the clubs!'
+instructions2:
+  location: world, 797.453, 239.200, 773.506
+  lines:
+  - '&6Your magic compass will always point to the nearest crate.'
+instructions3:
+  location: world, 797.499, 239.200, 783.629
+  lines:
+  - '&6Tap space whilst falling to activate wings!'
+join:
+  location: world, 6.492, 81.971, -5.539
+  lines:
+  - '&7Right-click the NPC to select the simulation'
+'1':
+  location: world, 9.547, 82.200, 0.562
+  lines:
+  - Use 'W, A, S, D' to move
+'2':
+  location: world, 17.617, 82.200, 0.491
+  lines:
+  - Use your mouse to look around
+'3':
+  location: world, 25.540, 82.200, 0.517
+  lines:
+  - Press space to jump
+'5':
+  location: world, 60.633, 88.200, 4.713
+  lines:
+  - Double-press 'W' to run
+'6':
+  location: world, 60.631, 88.200, -3.590
+  lines:
+  - Double-press 'W' to run
+'8':
+  location: world, 6.626, 82.200, 6.573
+  lines:
+  - If you see cracked blocks when playing the simulation
+  - then these are defective.
+  - You will need to replace them.
+'7':
+  location: world, 15.233, 87.890, -6.988
+  lines:
+  - Right click me!
+minigame-chest:
+  location: world, 212.497, 85.290, 10.510
+  lines:
+  - '&fRight click the chest to open it!'
+  - '&fYou can use your mouse'
+  - '&fto &aMOVE &faround the items'
+minigame-tutorial:
+  location: world, 195.445, 88.494, 10.590
+  lines:
+  - '&6&lMinigame Tutorial'
+  - '&f'
+  - '&fPress &aCTRL &fand move forward to run'
+  - '&fUse &eW A S D &fto move around.'
+  - '&fPress &bSPACE &fto jump'
+  - '&f'
+minigame-fly:
+  location: world, 196.517, 84.994, 2.914
+  lines:
+  - '&a[NPC] Right Click to toggle flying'
+jump:
+  location: world, 11.300, 88.200, 0.602
+  lines:
+  - '&fJump to go back to the beginning'
+minigame-tutorial-2:
+  location: world, 169.300, 88.507, 10.428
+  lines:
+  - '&6&lMinigame Tutorial'
+  - '&f'
+  - '&fPress &aCTRL &fand move forward to run'
+  - '&fUse &eW A S D &fto move around.'
+  - '&fPress &bSPACE &fto jump'
+  - '&f'
+minigame-fly-2:
+  location: world, 170.224, 84.912, 3.210
+  lines:
+  - '&a[NPC] Right Click to toggle flying'
+minigame-fly-3:
+  location: world, 143.466, 85.079, 3.127
+  lines:
+  - '&a[NPC] Right Click to toggle flying'
+minigame-tutorial-3:
+  location: world, 142.301, 88.067, 10.514
+  lines:
+  - '&6&lMinigame Tutorial'
+  - '&f'
+  - '&fPress &aCTRL &fand move forward to run'
+  - '&fUse &eW A S D &fto move around.'
+  - '&fPress &bSPACE &fto jump'
+  - '&f'
+minigame-chest-3:
+  location: world, 159.700, 86.200, 10.668
+  lines:
+  - '&fRight click the chest to open it!'
+  - '&fYou can use your mouse'
+  - '&fto &aMOVE &faround the items'
+minigame-chest-2:
+  location: world, 186.700, 86.200, 10.499
+  lines:
+  - '&fRight click the chest to open it!'
+  - '&fYou can use your mouse'
+  - '&fto &aMOVE &faround the items'

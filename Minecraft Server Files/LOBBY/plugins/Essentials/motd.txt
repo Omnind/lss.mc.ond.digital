@@ -1,0 +1,2 @@
+&fWelcome &a{PLAYER}&f to the &9Minecraft
+&aLean Six Sigma &fTraining server.

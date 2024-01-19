@@ -1,0 +1,64 @@
+listeners:
+- bind_local_address: true
+  force_default_server: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  host: 0.0.0.0:20024
+  max_players: 100
+  motd: '&7LSS Minecraft Simulation Server'
+  ping_passthrough: false
+  priorities:
+  - lobby
+  proxy_protocol: false
+  query_enabled: true
+  query_port: 20024
+  tab_list: GLOBAL_PING
+  tab_size: 60
+remote_ping_cache: -1
+network_compression_threshold: 128
+permissions:
+  admin:
+  - bungeeresourcepacks.pack.lobbypack
+  - bungeecord.command.list
+  - bungeecord.command.alert
+  - bungeecord.command.send
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  default:
+  - bungeecord.command.list
+  - bungeeresourcepacks.pack.lobbypack
+log_pings: false
+connection_throttle_limit: 3
+server_connect_timeout: 3500
+timeout: 30000
+stats: 29af54c1-c448-400b-80f2-d9747d01a9ef
+player_limit: 200
+ip_forward: true
+groups:
+  BlockWorksYT:
+  - admin
+  Glauco_Silva:
+  - admin
+  NytDwellur:
+  - admin
+  SenatorGracus74:
+  - admin
+  Stefytorus:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 2000
+log_commands: true
+prevent_proxy_connections: false
+online_mode: true
+forge_support: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    address: localhost:20025
+    motd: '&7LSS Lobby'
+    restricted: false
+  sim1:
+    address: localhost:20026
+    motd: '&7LSS Simulation 1'
+    restricted: false

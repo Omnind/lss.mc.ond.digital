@@ -1,0 +1,22 @@
+setting:
+  priority: 1
+  advanced: false
+
+# Scoreboard criteria, see the wiki for more information.
+criteria:
+  1:
+    type: permission
+    permission: "kiteboard.group.default"
+
+
+# Scoreboard content, configured simply
+# Adding "100|" sets the refresh rate for this line.
+content:
+  - "20|&9&lPepsi&7&lCO"
+  - ""
+  - "&7To join a game, right-click"
+  - "&7the NPC at spawn and choose"
+  - "&7the simulation server you"
+  - "&7want to participate in."
+  - ""
+  - "&a&lGood luck!"

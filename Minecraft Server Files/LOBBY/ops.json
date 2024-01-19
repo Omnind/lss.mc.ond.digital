@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "629f3a03-7def-4dcd-964e-f2061e61f216",
+    "name": "BlockWorksYT",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f8118954-ed03-4eb9-a61c-9d32f13bd222",
+    "name": "Glauco_Silva",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a8538a94-268f-40fd-b5d4-02c67f6d58cd",
+    "name": "SenatorGracus74",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5758a401-cec6-42a0-85f6-f9318c7bb303",
+    "name": "Stefytorus",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,196 @@
+authentication:
+  #If you don't have your license key please contact me on discord: yooniks#0289 to get your key
+  #To get your key you have send me proof of payment for spigotguard.
+  license: "0UnXzDnFDcin2q2E"
+#
+#NMS version
+#Available types:
+#  FIND <- Automatically finds a NMS version.
+#  v1_8_R3, v1_12_R1, v1_14_R1, v1_15_R1
+#
+#You can set it manually if you are using custom spigot and the SpigotGuard cannot get your server nms version.
+nms-version: FIND
+#nms-version: "v1_8_R3"
+#
+#Is debug mode enabled? It prints every suspicious packet in the logs
+#
+debug: false
+#
+#
+#Item NBT deserialization
+nbt:
+  #If it has false detects you can just improve it. The NBT limit of item is 4000
+  #Default: 4000
+  limit: 1500
+  #Block whole books on server:
+  #It only blocks to edit or sign a book (written_book and book_and_quill), if your players are not able to do that then you can set it to true.
+  ban-books: false
+  payload:
+    max-capacity: 4500
+    ban-unreadable-bytebufs: true
+  block-place:
+    #Do we block a packet when the item from blockPlace packet is not the item that player hold in hand?
+    block-invalid: true
+  list:
+    #Max amount of NBTLists in item
+    #Default: 5
+    max-amount: 5
+    #Max size of NBTList
+    #Default: 50
+    max-size: 50
+    #Max length for each content of this List
+    #Default: 300
+    max-content: 300
+  book:
+    #Default: 5
+    max-similar-pages: 3
+    #Default: 400
+    max-page-content: 400
+    #Default: 257
+    #Page without color codes
+    max-stripped-page-content: 257
+    max-extra-chars: 6
+    content:
+      #Set to -1 to remove limit
+      #Max amount of (e.g.) China chars, emojis etc. which are bigger than 2 byte. Normal char like "A" is 1 byte length, china chars are 4 byte length.
+      max-amount-of-2byte-chars: 8
+  #Shulker boxes and chests
+  chests:
+    nbt-limit: 50000
+    books-limit: 400
+  array:
+    max-int-array-size: 50
+  #Max NBT keys
+  #Default: 60
+  max-keys: 30
+#####
+#Blocking ArmAnimation packet spam
+arm-animation:
+  #You can disable it if your server is above 1.9
+  enabled: true
+  #Player can send only one ArmAnimation packet in this period
+  timestamp: 800
+#####
+#Packet limitter
+###
+#Is packet limitter enabled?
+packets-limitter: true
+packets:
+  #Simple class name
+  PacketPlayInWindowClick:
+    #Packet limit
+    limit: 60
+    #Cancel event only? If "true", then we don't kick a player when he reaches a limit
+    cancel-only: false
+  PacketPlayInUseEntity:
+    limit: 500
+    cancel-only: false
+  PacketPlayInEntityAction:
+    limit: 150
+    cancel-only: true
+  PacketPlayInUpdateSign:
+    limit: 3
+    cancel-only: false
+  PacketPlayInTabComplete:
+    limit: 25
+    cancel-only: false
+  PacketPlayInFlying:
+    limit: 770
+    cancel-only: true
+  PacketPlayInPositionLook:
+    limit: 770
+    cancel-only: true
+  PacketPlayInArmAnimation:
+    limit: 250
+    cancel-only: false
+  PacketPlayInBlockDig:
+    limit: 700
+    cancel-only: true
+  PacketPlayInBlockPlace:
+    limit: 60
+    cancel-only: false
+  PacketPlayInChat:
+    limit: 4
+    cancel-only: false
+  PacketPlayInSettings:
+    limit: 400
+    cancel-only: false
+  PacketPlayInAbilities:
+    limit: 70
+    cancel-only: false
+  PacketPlayInCustomPayload:
+    limit: 15
+    cancel-only: true
+  ##
+  # Advanced checks start
+  ##
+  ItemDoNotMatch:
+    limit: 1
+    cancel-only: false
+  ItemDoNotMatchSmall:
+    limit: 8
+    cancel-only: false
+  IOOBE:
+    limit: 5
+    cancel-only: false
+  InvalidSlot:
+    limit: 15
+    cancel-only: false
+  InvalidMovement:
+    limit: 15
+    cancel-only: false
+  PlaceBook:
+    limit: 6
+    cancel-only: false
+  PayloadBook:
+    limit: 3
+    cancel-only: false
+  ##
+  # Advanced checks end
+  ##
+#
+##
+# Other checks
+##
+other-checks:
+  #Sign crasher
+  sign-check:
+    enabled: true
+    max-bytes: 34
+  #Move/flying/chunk crasher
+  position-check:
+    enabled: false
+    #May have false detects when you use some boosters for speed on your server probably? Then just increase it or disable.
+    max-xz-speed:
+      value: 80
+      kick-message: "&cYou are too fast!"
+##
+# Punishment system
+# SOON! It's not implemented yet, so you don't have to configure it.
+##
+punishment-system:
+  enabled: false
+  punishments:
+    levels:
+      high: #We are almost sure that player has tried to crash the server
+        #
+        #Available punishment types: SEND_BOOK_MESSAGE, BLOCK
+        #SEND_BOOK_MESSAGE opens a book when player joins again to the server.
+        #Block just temporary blocks player from the server and displays broadcast about the player
+        #
+        punishment-type: BLOCK
+        #Let's build punishment type options!
+        block:
+          #If you want to disable broadcast just set it to empty message.
+          broadcast-message: "\n&b&lDisclosure&7: &3{PLAYER} &cis suspected of &3suspicious activity &c(like trying to crash/lag the server) and he has been blocked. &c\n"
+          disconnect-message: "&8&l&n-------&r&8&l[ &b&lDisclosure &8&l]&n-------\n&cYou are temporary blocked for 2 days.\n&cYou are suspected of &3suspicious activity&c\n&8&l&n-------&r&8&l[ &b&lDisclosure &8&l]&n-------"
+      medium: #We are almost sure that player has tried to crash the server
+        #Let's build another punishment type!
+        punishment-type: SEND_BOOK_MESSAGE
+        send-book-message:
+          book:
+            author: "Disclosure"
+            title: "Exploits..."
+            content:
+              - "This is the first page of book"
+              - "This is the second page of book!"

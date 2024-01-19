@@ -1,0 +1,20 @@
+#
+# Language Created By:     Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-start: "[P]&a The Plugin was successfully enabled."
+  plugin-stop: "[P]&a The Plugin was successfully disabled."
+  plugin-prefix: "&7[&6GPack&7]"
+  
+  
+  
+Messages:
+  
+  command-config-reload: "[P]&a The settings were successfully reloaded."
+  command-permission-error: "[P]&c You have no permissions to use this command!"
+  successfully_loaded: "[P]&a The&6 Server-Resourcepack&a was downloaded successfully!"
+  kick-error: "&8Please enable resourcepacks to play!"

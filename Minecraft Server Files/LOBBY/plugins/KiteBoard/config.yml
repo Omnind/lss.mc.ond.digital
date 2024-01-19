@@ -1,0 +1,9 @@
+general:
+  enable-update-check: true
+  enable-scoreboard: true
+  enable-tablist: true
+  enable-scoreboard-reinstate: false
+  enable-short-command: false
+command-aliases:
+- kboard
+- kb

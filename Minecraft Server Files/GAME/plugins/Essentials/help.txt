@@ -1,0 +1,9 @@
+&a&lWelcome to the disclosure minecraft server!
+&a&lHere are the essential commands you can
+&a&luse to explore the map and collect discs.
+&f
+&8- &c/spawn &7will teleport you at spawn.
+&8- &c/rules &7will show you the server rules.
+&8- &c/msg &7will send a private message to a player.
+&8- &c/helpop &7allows you to report issues to staff.
+&8- &c/trash &7allows you to remove useless items.

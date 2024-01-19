@@ -1,0 +1,16 @@
+Lang:
+  lang: en_en
+  
+  
+  
+Resourcepack:
+
+  link: "https://assets.entryrise.com/resourcepacks/PepsiCOv4.zip"
+  
+  tick-delay: 100
+  
+  allow-skip-permission: false
+  
+  kick-on-deny: true
+  
+  show-loaded-message: false

@@ -1,0 +1,337 @@
+{
+  "world_name": "world",
+  "locations": {
+    "bottom_layer": {
+      "page": 27,
+      "spawn": [109, 4, 24],
+      "build_loc": [108, 2, 35],
+      "cuboid_pos_one": [117, 0, 26],
+      "cuboid_pos_two": [100, 13, 45],
+      "item_spawn_box": [118, 5, 35],
+      "bell": [115, 5, 44]
+    },
+    "middle_layer": {
+      "page": 36,
+      "spawn": [135, 4, 25],
+      "build_loc": [134, 2, 35],
+      "cuboid_pos_one": [143, 0, 26 ],
+      "cuboid_pos_two": [126, 13, 45],
+      "item_spawn_box": [144, 5, 35],
+      "accept_incoming_button": [142, 5, 43],
+      "bell": [140, 5, 44]
+    },
+    "top_layer": {
+      "page": 45,
+      "spawn": [72,4,-127],
+      "build_loc": [160, 2, 35],
+      "cuboid_pos_one": [169, 0, 26],
+      "cuboid_pos_two": [152, 11, 45],
+      "item_spawn_box": [170, 5, 35],
+      "accept_incoming_button": [168, 5, 43],
+      "bell": [166, 5, 44]
+    },
+    "banding": {
+      "page": 54,
+      "spawn": [116, 4, -31],
+      "build_loc": [115, 3, -42],
+      "cuboid_pos_one": [100, 0, -32],
+      "cuboid_pos_two": [132, 12, -51],
+      "item_spawn_box": [101, 5, -41],
+      "accept_incoming_button": [130, 5, -48],
+      "bag_button": [127, 5, -49],
+      "bell": [129, 5, -50]
+    },
+    "inspection": {
+      "page": 56,
+      "spawn": [154, 4, -31],
+      "build_loc": [154, 3, -41],
+      "accept_incoming": [150, 5, -49],
+      "cuboid_pos_one": [139, 0, -32],
+      "cuboid_pos_two": [170, 12, -50],
+      "toggle_visibility": [153, 5, -49],
+      "up_layer_button": [155, 5, -49],
+      "down_layer_button": [156, 5, -49],
+      "send_to_warehouse_button": [162, 5, -49],
+      "defect_button": [159, 5, -49]
+    },
+    "warehouse": {
+      "page": 78,
+      "spawn": [178, 4, -2],
+      "cuboid_pos_one": [208, 0, -24],
+      "cuboid_pos_two": [178, 15, 18],
+      "accept_customer_order": [205, 5, -2],
+      "build_location_one": [193, 2, 2],
+      "build_location_two": [193, 2, -9],
+      "complete_order": [205, 5, 0],
+      "sign_one": [205, 6, -6],
+      "sign_two": [205, 6, -5],
+      "sign_three": [205, 6, -4],
+      "sign_four": [205, 5, -6],
+      "sign_five": [205, 5, -5],
+      "sign_six": [205, 5, -4],
+      "clear_selection_button": [205, 5, -1],
+      "next_order_button": [205, 6, 1],
+      "previous_order_button": [205, 5, 1]
+    }
+  },
+  "rounds_and_orders": [
+    {
+      "name": "Round One",
+      "time": 1200,
+      "orders": [
+        {
+          "time_out": -120,
+          "number": "RF-732-G1",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 1,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 0,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 120,
+          "number": "DC-941-J2",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 1,
+            "small_holiday": 0,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 240,
+          "number": "TX-897-G3",
+          "quantities": {
+            "large_holiday": 1,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 1
+          }
+        },
+        {
+          "time_out": 360,
+          "number": "KW-687-K4",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 1,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 1
+          }
+        },
+        {
+          "time_out": 480,
+          "number": "PO-302-L5",
+          "quantities": {
+            "large_holiday": 1,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 0,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 600,
+          "number": "LK-746-S6",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 1,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 0,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 720,
+          "number": "LM-498-W7",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 1,
+            "large_specialty": 1,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 840,
+          "number": "FL-356-M8",
+          "quantities": {
+            "large_holiday": 1,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 1
+          }
+        },
+        {
+          "time_out": 960,
+          "number": "PP-597-J9",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 1080,
+          "number": "OP-782-N10",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Round Two",
+      "time": 600,
+      "orders": [
+        {
+          "time_out": -120,
+          "number": "RF-732-G1",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 1,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 0,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 120,
+          "number": "DC-941-J2",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 1,
+            "small_holiday": 0,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 240,
+          "number": "TX-897-G3",
+          "quantities": {
+            "large_holiday": 1,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 1
+          }
+        },
+        {
+          "time_out": 360,
+          "number": "KW-687-K4",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 1,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 1
+          }
+        },
+        {
+          "time_out": 480,
+          "number": "PO-302-L5",
+          "quantities": {
+            "large_holiday": 1,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 0,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Round Three",
+      "time": 600,
+      "orders": [
+        {
+          "time_out": -120,
+          "number": "LK-746-S6",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 1,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 0,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 120,
+          "number": "LM-498-W7",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 1,
+            "large_specialty": 1,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 240,
+          "number": "FL-356-M8",
+          "quantities": {
+            "large_holiday": 1,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 0,
+            "small_variety": 0,
+            "small_specialty": 1
+          }
+        },
+        {
+          "time_out": 360,
+          "number": "PP-597-J9",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        },
+        {
+          "time_out": 480,
+          "number": "OP-782-N10",
+          "quantities": {
+            "large_holiday": 0,
+            "large_variety": 0,
+            "large_specialty": 0,
+            "small_holiday": 1,
+            "small_variety": 1,
+            "small_specialty": 0
+          }
+        }
+      ]
+    }
+  ]
+}

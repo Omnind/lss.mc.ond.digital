@@ -1,0 +1,600 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 10
+npc:
+  '6':
+    metadata:
+      cached-skin-uuid-name: 0810daa3-46a1-45ce-984f-d4d14f008eaa
+    name: §7[NPC] Warehouse
+    uuid: 0f25eff7-989a-4f8e-8ee3-cd922bb55c29
+    traits:
+      location:
+        bodyYaw: 357.4403
+        world: world
+        x: '126.6282'
+        y: '4.0'
+        z: '-6.474'
+        yaw: '-2.5597'
+        pitch: '-1.2981'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: warp warehouse
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: pepsi setrole WAREHOUSE
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: hH90kzkKF7r9K/rc49wEdjUpa8RAWE8Rg0Ve3y8Tf0f/VNnD5R7A0AQdmwt3z+aI/W82HLOk3I+aBqc1llO62L+3uX9zW8KjRBLz7EhColO9UfTChclVKiscUPjnC+atQIsdUTnkc95p/BKPsvEnJmhIjL6qslxKGx/Zt/veLvmMp1HU6UGJkuWNp0ub87D4WXkNHja+1HD1+TRwA/KnD42NyV4rdSyvc8kFtf/MINBAxpSnzdO8xdr93eUHq0GhHJ9Fta/093ks3IU/fiaweP5i9/nwOxaji4xYofeUFZItfw1EbplDcafEMbKjmTgHDj+Xifkz00KzTAHXRmBtSZ1PeZL8XYLRymI1eLJ6G/LBT20827XPHosSprtHJJHJjJMNB5wUB21cqDCSXSlos5251ZdVgG0hOdpUVY0YWZOaR8rl42rmUc5/ahoIFS9I3m3o4cBldQ4mBGvDZy01HdyUbRzeHaT3AJYtH7uPeKoTgyCS9RprKmLHIaFp0GLc5aBgMtNAAgh7G24XJt4YuMpaE3cliwSJjijkfPavOB0gGET1iEcuhBVCg9CEkiKHg+41lE9tkuFCVd2mdL1pOc/LB3xOFHyZ9mT3jsgqP5e/xxsmy/82o2IQUObgrqChUrIe9T8gyAHzfkBbrHKbt1w6/49t1Masti+IO25IcHU=
+        skinName: 0810daa3-46a1-45ce-984f-d4d14f008eaa
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjcyNTE1MDkzNCwKICAicHJvZmlsZUlkIiA6ICIwNmE4NjAyZDAwODk0YWQxOTcyMGQ3NGE1OGU1MDZjZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfMW5kcmFfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1MGQwNDI2N2I4ZmFmMzFjNmFlNDA0MGI5ZGVmYjA2NGYzOTE3ZTc2NTc1MjAwZDY0ZjZmZTU1YzE0OGI4NDQiCiAgICB9CiAgfQp9
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,hologramtrait,scoreboardtrait,spawned,inventory,skintrait,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      cached-skin-uuid-name: abc04d05-5980-4878-9d58-f0c988eb81fe
+    name: §5[NPC] Banding
+    uuid: 29ca7bfa-d0b2-46ca-a48b-81f342681ac7
+    traits:
+      location:
+        bodyYaw: 358.3484
+        world: world
+        x: '120.5114'
+        y: '4.0'
+        z: '-6.4192'
+        yaw: '-1.6516'
+        pitch: '0.9772'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: warp banding
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: pepsi setrole BANDING
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: buN979Y6ilf8bYcdX6hJzUQgBg7rm/IY8DMYu1+6be8Ij5NnplBZPDH5+F7/f6JxYGGg1WTI7FHj3McEVBcq329LuzZ9IM50MXWmyqKiakKep+gu7tPvJ65/9jHzDALBDZ4V44LEPffsNv1EMcABCfsgH4DIZlN4+Y3IajS+PYvvz1RHn7eKlN1Bacq6Idj2ZP98gce4Oa3M7zIx7j3QqIgGFfvLjbjHwAdPt+LY88F6hyL8vdqF3/El41rgGYQOxNG3YTjC0PThG+RrKtGt8Buo10NQaQIYZfhg8V63U+YbSPGJHYX/5Rc5V9mTkT8l6Q930DiwG36bCCt1ISnKT2YKQeey5+uViB42umjA8JJNSB4PozoGri/BMerfR6Mxl9Zi25sCOO05a+mgD1HUCNsmjEMtYreBNlplhEaceS9zwBbIHLg9q8FTMO/As56e0rrMP9EL9fGUUN1TNFB6uqPrscAKU1CcHDJ+im9sHSI8uth8OVHmznXDm9DUvqSWCYd31DCAfxMrVhcJbMpp2FAKARH2TDdZ3FBKajW0/APqPMCfNGPFMqJk0ddyNu9MJbKwDMI/5vykgicHl2wdS3GIELWH/LkfV6L6YurkokQA3/OTFKR//tMz+4qKk7N401t78tD71aja3f79dhWnJ524NRwAlsmnmyhu3AFdWng=
+        skinName: abc04d05-5980-4878-9d58-f0c988eb81fe
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjcyNTExMjA0OCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNjVjMDAyODQ2NmMwNzhiMzE5NDEzNzMzNTI3NThkOTBmM2Q3YmY5MGFkODcwYjdlMjFkOTRjNmZlM2U1MGJjIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,spawned,skintrait,inventory,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid-name: e9f70db8-f94b-42ee-96c6-54b019df4a1e
+    name: §6[NPC] Inspection
+    uuid: c3108f5b-67d9-4c21-89f6-292f5cb576a9
+    traits:
+      location:
+        bodyYaw: 357.4403
+        world: world
+        x: '123.4381'
+        y: '4.0'
+        z: '-6.4609'
+        yaw: '-2.5597'
+        pitch: '-1.2981'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: warp inspection
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: pepsi setrole INSPECTION
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: idR16XaJEfiuaCKlCj6LHADxgWFW7eTITuTK9qrTANAf2trEr3hK1bB2pbebk8u4IgJ4/v8XeBkAfVbAW7LfXcDJEo2hoUOK2gDUW8X91RZ6pT2zER2rk+r6R0ive4LyGEGGfNHMjH9cXOqJFs9HBLGf+dz6f1CCGmN0k3ccDQW1FVn9pA3IOCWB55TcRhfn8F1BO9ByFywGHJwNYirQ4M5epoF3XFOlI4sJi6kSVi6q7dYyJGwX+hIXuPlgo0r8j6ujIUu/HCu1sC5nBdIJDzCVCWK4sS43GLBH+y7R8Q88BNCle2b3j00WCU8e3HZWaSw2oeJWeygTrOc+gVGKRgfe250qliBUBxRaG+BBbqBQiey6XNNmR45CoMeVlBNZFc/TNyY2nNH0nj0Y3RKxsrXw5DHY3wSri/W+miAkCkvbQeJc1PrCHvKEEKPPphhBIgfCbKgXMmdVwCU9mEzm78cP62rq4hJEyvVVmtq3rRmuhIvqW+2bSkTFSZlzuUC3REZ1W+L7DKElt0lm76eT6ON41/6A84mdfMXpw9DBfYhWY96SQgSuY5M4NfNfu792apxqEPM4anT8Ynwjkk+qM+q7JNm61vfFutoa0UeGhN7kgoc9PXmtrwWZOCbVYpN3yafGZMYZjcPtRoT0zik0P9RlsVJEwr6jBOaM0VPCWLw=
+        skinName: e9f70db8-f94b-42ee-96c6-54b019df4a1e
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjcyNTA3MTMyMiwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRiMTNhZTQ5NWMyZTYxNjJkNDJiYmIwMWNjZjY4OWY1ZmE0ZjA4NGI4MTM2ZjBjODg4YTQ4NzQ1ZjhjZmNkZmIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,hologramtrait,spawned,skintrait,inventory,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: 3b3ec5c3-9f14-4104-b124-4fc445ef8de3
+    name: §c[NPC] Top
+    uuid: 98680fb7-69dd-4f79-a6a4-9cc30779b189
+    traits:
+      location:
+        bodyYaw: 177.42773
+        world: world
+        x: '126.4875'
+        y: '4.0'
+        z: '1.4897'
+        yaw: '177.4277'
+        pitch: '-3.8857'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: pepsi setrole top_layer
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: warp top
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: IGiEf/IcNMSHMRc6EMcUblPWntl0zKvPdRQ98bhTV3gbiNPEBZh2guvx6Oxd7eXH+fmW5w7v5nJGkJuq0+JXcCTl83lD97gcdvfKmkr2HOD+hpjMEfGyxnNj9crTFrFBauipQSBZsi8mg4Uor7dPBx8rELa5TQ1uwaVzRYSEDAGQ0fi0QptuzJHl6Cn08wzNqtZUPiTmALfJl7gy81EE3McyOTmS44NpuHvjuUEGmmK3k2H6kLy5RECEadXb3ou8SMEEdEWDufYwKt/3KK5++Fbt9au7/6U7jcAwhcyybk6/bOJi+gMuH2xSx6zALEutoc3MNXFQWuW7Vya978zvo8i8f41h/xB/jV8tEy2EHPemH1zYPBYGN0Xy4idiks4wYt1QxLY2aEJqTWOY7ACJNX9AZttjJNQu+AGRK54jBmdecloSnhwF4+rmqdCyQksrGOH5Q8y+I/smOtLtyrIOWZpW2SXbzoJ7csOFGuamkUG7pnVlPN1mDDzS98bQxiuEnAjG0rP1335EOIRv8BlUkdMsRIlDVm20DgcAqyymMP6Mh5S4oZIsRPgsjlH76wl+NSL4ViB88j0d2c3/KD1cjWIUz05J8SAffJAWMLIHJmFAQwON1QbidwzPMi2SFOU5iw4oYRw/m1ekXDfy00tCIxunLCt8yYsnsw/U53saXVs=
+        skinName: 3b3ec5c3-9f14-4104-b124-4fc445ef8de3
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODA1MTAyODcxMDIsInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYyYTRhZDc3ODhmYmIxZWI1NGY3ZGY0OTFjYzJjN2I5YWRlMjBjOTNkNjdiZjM5MjdmOTY5MTNjZDgxMzg4YzUifX19
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,spawned,inventory,skintrait,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: c89d8211-fd43-41ff-a33c-a468dc4737d9
+      cached-skin-uuid: 38d2f4cb-6c98-4021-90d7-65c0faf80e4d
+    name: §3[NPC] Middle
+    uuid: 5318fb0e-14fd-4d0a-a958-cfc3f4f1535c
+    traits:
+      location:
+        bodyYaw: 182.8479
+        world: world
+        x: '123.5051'
+        y: '4.0'
+        z: '1.4189'
+        yaw: '-177.1521'
+        pitch: '6.8596'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: warp middle
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: pepsi setrole MIDDLE_LAYER
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: c4UaTi4N5gv/O30KpoIgPIvxw7SH3QrzFJiLT91+G9I7qeeqZZryjtGuSzfHjK38j3sEnRbHk2QciHD99p1Dwo4eThJvXtHMQYXgxIykPFZtDxT6jM5vBmBqOMr6HECZa/QQxU4EDXx5gqiDyYn3iplXUfi2MUdLsjH9pRcSdNp6h5TuFcxVzf7O1YEA1uXpZTzH3+8gSpkBtgwVG8QTpNfaVG2nYlteLYLreqHO4T8DbRKT5A9SfSzhG5jh23xK0aPBj2XtFpKV456tvIORdYQZC3wydc94Jac/4fW4a8sE9OIE9PF2dhl0U5RS/LiA+asfCSdWlskMJRwg3mYfk00KjuVBA1l+M1zyHCY8jCeEvVmkK9KlnabtErOH4V/LItEGlg2Eq10nt3TyuWJLJl61i3kgmXF9kbRcpltlpRJ18bhUXuEdIQRTEuRrdxWV7a8APRgvGwmK91oJxfHwfVwx9OusC97TUnV2dPiUSoQurUbHgjcirL1qTyYNMNKhQNdhvqI8YMtVOWgnZpiAB0lrfJqX9VIWPpqDKMicNkUTznCHis/8ioKoz+5TNM6QtEdt344fCPJD6NMYzro2A5h9uSnOaukD8gXYpdvmrscETRFmhvAy8SiiGKMreQyjOt3ekqf4NH8z4gPZ1uRKjkylhTArIwm9iJyl3S9Wn98=
+        skinName: c89d8211-fd43-41ff-a33c-a468dc4737d9
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjcyNTIyMzcyMywKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg4NzJjMzAxNzJjY2ZhNGE2MzRiOTBmMjZiYjFiOTc4MGRhZTU1YTU3MTliOWI1MzFlZmYzYTNhMWYwNzU4OCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,spawned,skintrait,inventory,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: f10e7ecd-d497-470b-9b9b-d7a769a2f864
+    name: §a[NPC] Bottom
+    uuid: 6e50478a-5aec-4097-b773-d60f44038f63
+    traits:
+      location:
+        bodyYaw: 181.19458
+        world: world
+        x: '120.5305'
+        y: '4.0'
+        z: '1.4813'
+        yaw: '-178.8054'
+        pitch: '3.1732'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: warp bottom
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: pepsi setrole BOTTOM_LAYER
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: dlN7LPZfDT02IUcsMkJ5sItTad9d2BdNVPELfP6i12wKPD5KqHcvEX+A529vk4Fr6e6MhsAXemfSvPudYsr5pR3HPSjcFKj4IsGgziJmc5AXGxG6YECsZchlzxodITW65UEHzWFbZYzTZgRM03T2/uFW/FIvpF+r2nTud2UdCbmiMDc1VcWo4AiEk4vOyHs46vTqONyVgC+kk23VITk5UkQNAZpJ9jUTVmy+4fEsa98Q4/jqwRBEI3N79wfnKDVGfRTG4O9hIKqSYbADEdody2VxEVBTLuhR1boa/taY5HPJURwVuf2gPiUyAyxvbKJSiQXulLk1/oGKIObl5qGCBs3TcYKoViyNUaiG9Z2zYthNbSdmsDZhXGpugaN3SBYihh9IA/ShUBLD92byYUjT/1vPSo76wYymaOYqg3of8O/W0pOKM4go7MKZYWZZbMz6j4utJfIHxGEZBiZyUFC3q3JETHVO7+VqHXcBMaAxl4UvyETaUWFYj2SSDH4XD4kPeh5cw7K2S3V2SE3ov6oGf9JcfIpCeO5bCrU2vtWtORIOs5Re2Lp7luzQO3OmMYmQ1T90qhxfcvXG2LrTYMBinA+atNmZ9wbHbH2rH6T34TEPlbjyPQG0sp7hY4GUR4Gh8VGj5VcbLSDVwLYC011RVn8w+f9aoZ7lLhOA6pusuj0=
+        skinName: f10e7ecd-d497-470b-9b9b-d7a769a2f864
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjcyNTI1ODkwMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMzMwZDkxZWExMGE5M2YyYWNkNTU0NzhiMjk2NGNkYmEwY2E4YWQzNThhOWFiZjk5M2Y2ZWVjZDRmMWMwNjUiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,spawned,inventory,skintrait,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      glowing: true
+    name: §f§l[NPC] Optimizations
+    uuid: a0f4147a-5fe1-48b7-bd32-73ad06c33c72
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: pepsi optimizations
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 2
+            n: -1
+            delay: 0
+        cooldowns:
+          629f3a03-7def-4dcd-964e-f2061e61f216:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1605108143
+            lastUsedId: 0
+          26c723a1-e940-409c-9308-1afd083bb26a:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1605185355
+            lastUsedId: 0
+          3f458c06-0e63-4a6d-8db4-445eb3ed05bc:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1621596885
+            lastUsedId: 0
+          36159880-14ab-4db7-8411-eeb167e900d6:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623418997
+            lastUsedId: 0
+          61ce6a07-e433-4d79-990e-9a9948f39760:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1613468042
+            lastUsedId: 0
+          563f7b91-2b6a-4bd9-a365-3c55ad7e50cb:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1610529778
+            lastUsedId: 0
+          948b01e8-e584-4bf2-a0dc-50a1cf59d265:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1617026003
+            lastUsedId: 0
+          fc1b8eb0-ca23-3f1c-b7f6-3d11bed64f5f:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623686442
+            lastUsedId: 0
+          18d52a0d-13ce-3117-b9ba-68c5ef4f866e:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623762581
+            lastUsedId: 0
+          b9d36f50-0054-44e1-9060-fd29279ced30:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1625735881
+            lastUsedId: 0
+          5758a401-cec6-42a0-85f6-f9318c7bb303:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1628249919
+            lastUsedId: 0
+          539fc201-c851-460c-84d5-e47c7710df6a:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623915443
+            lastUsedId: 0
+          d197e04e-2f70-4d77-9c8e-96dcea138aaa:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1703343578
+            lastUsedId: 0
+          3c70d913-912e-4d10-8f18-aac4e5cc50ab:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623419258
+            lastUsedId: 0
+          eaffd5a8-e9fe-46c9-aa8d-41ac50834428:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1610533020
+            lastUsedId: 0
+          c0dcea25-6922-4982-a119-a7f7370b8fde:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1614348516
+            lastUsedId: 0
+          ac711abb-e4d5-4569-871d-81642037be0e:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1624462675
+            lastUsedId: 0
+          391e7fff-d658-421e-a120-dc0baf009d6f:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1610572939
+            lastUsedId: 0
+          723444de-a5db-430f-9074-ad10388962a0:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1605111953
+            lastUsedId: 0
+          f8118954-ed03-4eb9-a61c-9d32f13bd222:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1628156312
+            lastUsedId: 0
+          7f1549f5-2efb-48d9-bc73-f2d9bc848c6f:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1614701698
+            lastUsedId: 0
+          a8538a94-268f-40fd-b5d4-02c67f6d58cd:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623440681
+            lastUsedId: 0
+          2cf7e266-7e94-40a5-a223-c6611f2cc320:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1618844355
+            lastUsedId: 0
+          18a1315d-7b2d-42e9-8f93-5d4375ea4285:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1615191610
+            lastUsedId: 0
+          93bbbb53-4cad-4d10-bc9f-fadfd568cca2:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1610572886
+            lastUsedId: 0
+          6f6bbe7c-055f-4548-8c15-eaf4fc1b4a2c:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1621597234
+            lastUsedId: 0
+          4060b5be-bb20-40da-814f-a8ff27e66622:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1606233189
+            lastUsedId: 0
+          a3044bc0-3216-416d-8942-9a4c1e731c3e:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1613413097
+            lastUsedId: 0
+          7fd7418c-6527-4ba9-8ba0-220c0a6de742:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1606234418
+            lastUsedId: 0
+          b54eebca-601c-4e5a-97ea-72a2f802455b:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1613642896
+            lastUsedId: 0
+          c2b98e67-c938-4db4-b1ed-4ae4793cf149:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1613749465
+            lastUsedId: 0
+          e51586b7-2841-4b7a-baec-2b45854bc375:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1624385639
+            lastUsedId: 0
+          ec5a7e4d-22a3-33dc-8699-c4ad4c8a2734:
+            lastUsed:
+              cGVwc2kgb3B0aW1pemF0aW9ucw==: 1623764764
+            lastUsedId: 0
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      type: IRON_GOLEM
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      spawned: true
+      location:
+        bodyYaw: 354.19635
+        world: world
+        x: '142.3037'
+        y: '4.0'
+        z: '-46.8087'
+        yaw: '-5.8036'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,hologramtrait,scoreboardtrait,spawned,inventory,skintrait,location,lookclose,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid-name: ed0c6d51-19c5-44cf-b541-0bfcb2f721cb
+      cached-skin-uuid: 1326de59-987d-4b5d-a40d-75ff6dac16da
+    name: §0[NPC] Guest
+    uuid: c5d398e1-809e-406a-85cb-e5648365a52c
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: wqFxjJa7HfT064xgcgNy4fDB/XhSKMcvywwJJWOH/WIh/BcHwI1EjlpnQ/Cz9vo2+c/JRTAswlC9/y6YG9lLpfoYhoPXI159m/x84idvmbQmtzd7N1FZsc0Hlp8dOP72T9IgffY+eC6c3J9Di0VVPxeGOm0ieFAWHufnhHrSvi7gCgMXNUJMXdkREflHQfgpuBCD2/ibdy6Yjvq1rjN+MvQMwTXJFwEr7Lf74hUQuaQcLgUz4g1YhIaK2aavcrm2iQs/VKpuK7IY0enCP1wPmh1KSdOqVfnwy6FWfsPdR/1zYnUSBcoTUNVTjQRYrVri2flLKr/9x0KL1xX19aQH4A6V5opU1Iz9tBstYuTtWAdtOrSAvNd2qw4LiKKSZyxSTTLLYaAby9Hysl89Z99SBfr5CqoS0ANBRt+NYg6ArAfV8lE/Rbdn7OI6ZGri8O0AsVbflNMSRzXg8QRjODEItPtsPDLSqO4GEhFs68YK+FN9lBlOtc+DTPFaQm56Dha7bt+FdG6E67OJY8DtYxYOvjvRnr9d2tHGpGNwrg+mmXaPax2WtC9VHuaJAQFLY4SuQlDipDx154HMSrN46KHFlg5zGHIAIIZVQq2eXQDR8xhe7QV2h+DMr1kDOktcu9gsp38Z6PBwg7/Rf9BPu9DgkxQF/TVcocN2KQlxdlafa4E=
+        skinName: ed0c6d51-19c5-44cf-b541-0bfcb2f721cb
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwNjIyMjI1NTgwMiwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNWQzNGUxYjdiNTgzODQ4MWYzNjI0ZGZmNzNiZjBjYjBjN2QyYTI1ZDY4NjAwNGJhNjMwYTA3YWUxNDhjNTcwIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 89.45087
+        world: world
+        x: '130.5133'
+        y: '4.0'
+        z: '-2.4939'
+        yaw: '89.4509'
+        pitch: '1.0556'
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: pepsi setrole guest
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,spawned,inventory,skintrait,location,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      glowing: true
+    name: §4[NPC] Go To Lobby
+    uuid: c5009544-8e3a-4711-9380-cf93b14f54f9
+    traits:
+      location:
+        bodyYaw: 358.98303
+        world: world
+        x: '168.0352'
+        y: '4.0'
+        z: '-46.7201'
+        yaw: '-1.017'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      type: VILLAGER
+      slimesize:
+        size: 4
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: hub:hub
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Stefytorus
+        uuid: 5758a401-cec6-42a0-85f6-f9318c7bb303
+    traitnames: owner,type,equipment,scoreboardtrait,hologramtrait,spawned,inventory,skintrait,location,slimesize,mounttrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

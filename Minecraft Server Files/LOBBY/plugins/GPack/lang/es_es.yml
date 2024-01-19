@@ -1,0 +1,20 @@
+#
+# Language Created By: ThatOverPowered
+#
+
+# Mensajes simples sobre la activación/desactivación del plugin
+
+Plugin:
+
+  plugin-start: "[P]&a El plugin fue activado correctamente."
+  plugin-stop: "[P]&a El plugin fue desactivado correctamente."
+  plugin-prefix: "&7[&6GPack&7]"
+
+# Mensajes concretos sobre la utilidad y uso del plugin
+
+Messages:
+
+  command-config-reload: "[P]&a Los ajustes se han actualizado correctamente."
+  command-permission-error: "[P]&c ¡No tienes permisos para usar este comando!"
+  successfully_loaded: "[P]&a ¡El &6Server-Resourcepack &afue descargado con éxito!"
+  kick-error: "&c¡Has sido kickeado porque no\n&cdescargaste nuestro&6 Server-Resourcepack&c!\n\n&a¡Activa los &6Resourcepacks&a en tu Server-Settings para jugar!"
